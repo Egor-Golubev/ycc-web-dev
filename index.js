@@ -13,7 +13,7 @@ app.post('/signin', (req, res) => {
 })
 
 app.post('/signup', (req, res) => {
-  res.send('Регистрация завершена!')
+  res.send('Егорка молодчинка!')
 })
 
 app.listen(port, () => {
