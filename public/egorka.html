@@ -5,31 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/style.css" rel="stylesheet">
     <title>Это жалкая копия </title>
 </head>
 
-<body style="background-color:green; color: aqua;"></style>
-    <h1 style ="color: rgb(0,0,0)"></h1>Вход Егорика КОПИЯ</h1>
-    <a href="index.html">Зарегистрироваться</a>
+<body>
+    <div class="container">
+        <div class="center-card">
+            <h1>Вход</h1>
 
-    <form method="post" action="/Login">
-        <p>
-            <label for="Login">Логин</label>
-            <input id="Login" name="Login" type="text" placeholder="Введите ваше имя" required>
-        </p>
-        <p>
-            <label for="password">Пароль</label>
-            <input id="password" name="password" type="password" placeholder="Введите ваш Пароль" required>
-        </p>
-        <p>
-            <label for="remMe">Назовите себя</label>
-            <input id="remMe" name="remMe" type="text" placeholder="Введите что-то" required>
-        </p>
 
-        <input type="checkbox">
-        <span>Запомнить меня</span>
-        <br>
-        <input style="height:145px; width:300px; border-radius: 80px; " type="submit" value="Войти">
+            <form class="card-body" method="post" action="/Login">
+                <div class="field">
+                    <label for="Login">Логин</label>
+                    <input id="Login" name="Login" type="text" placeholder="Введите ваше имя" required>
+                </div>
+                <div class="field">
+                    <label for="password">Пароль</label>
+                    <input id="password" name="password" type="password" placeholder="Введите ваш Пароль" required>
+                </div>
+                <div class="field">
+                    <label for="remMe">Назовите себя</label>
+                    <input id="remMe" name="remMe" type="text" placeholder="Введите что-то" required>
+                </div>
+
+                <input type="checkbox">
+                <span>Запомнить меня</span>
+                <br>
+                <a href="index.html">Зарегистрироваться</a>
+                <input type="submit" value="Войти">
+        </div>
+
+    </div>
+
 
 
     </form>
