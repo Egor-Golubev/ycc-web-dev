@@ -17,23 +17,26 @@
 
             <form class="card-body" method="post" action="/Login">
                 <div class="field">
+                    <input id="Login" name="Login" type="text" required>
+                    <span></span>
                     <label for="Login">Логин</label>
-                    <input id="Login" name="Login" type="text" placeholder="Введите ваше имя" required>
                 </div>
+
                 <div class="field">
+                    <input id="password" name="password" type="password"  required>
+                    <span></span>
                     <label for="password">Пароль</label>
-                    <input id="password" name="password" type="password" placeholder="Введите ваш Пароль" required>
                 </div>
                 <div class="field">
                     <label for="remMe">Назовите себя</label>
-                    <input id="remMe" name="remMe" type="text" placeholder="Введите что-то" required>
+                    <input id="remMe" name="remMe" type="text"  required>
                 </div>
 
                 <input type="checkbox">
                 <span>Запомнить меня</span>
                 <br>
                 <a href="index.html">Зарегистрироваться</a>
-                <input type="submit" value="Войти">
+                <input class="btn-submet" type="submit" value="Войти">
         </div>
 
     </div>
